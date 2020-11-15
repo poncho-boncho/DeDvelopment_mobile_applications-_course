@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:text="@string/large_text" />
+
+        <ImageView
+            android:id="@+id/new1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/zeva"
+            android:visibility="visible">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:textStyle="italic"
+            android:text="@string/new1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:text="@string/new2Z" />
+
+        <ImageView
+            android:id="@+id/new2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:scaleType="center"
+            android:src="@drawable/popug"
+            android:visibility="visible">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:textStyle="italic"
+            android:text="@string/new2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:text="@string/new3Z" />
+
+        <ImageView
+            android:id="@+id/new3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:scaleType="center"
+            android:src="@drawable/clear"
+            android:visibility="visible">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:textStyle="italic"
+            android:text="@string/new3" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
